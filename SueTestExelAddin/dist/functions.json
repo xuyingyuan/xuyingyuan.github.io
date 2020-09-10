@@ -1,0 +1,183 @@
+{
+    "functions": [
+        {
+            "description": "Adds two numbers.",
+            "id": "ADD2",
+            "name": "ADD2",
+            "parameters": [
+                {
+                    "description": "First number",
+                    "name": "first",
+                    "type": "number"
+                },
+                {
+                    "description": "Second number",
+                    "name": "second",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Displays the current time once a second.",
+            "id": "CLOCK",
+            "name": "CLOCK",
+            "options": {
+                "stream": true
+            },
+            "parameters": [],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Increments a value once a second.",
+            "id": "INCREMENT",
+            "name": "INCREMENT",
+            "options": {
+                "stream": true
+            },
+            "parameters": [
+                {
+                    "description": "Amount to increment",
+                    "name": "incrementBy",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Calculate Heat Transfer - using FluidFlow. Try =CalculateHeatTransferUsingFluidFlow(x, y)",
+            "id": "CALCULATETEST1",
+            "name": "CALCULATETEST1",
+            "parameters": [
+                {
+                    "description": "int : value1.",
+                    "name": "x",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "int : value2.",
+                    "name": "y",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Calculate Heat Transfer - using FluidFlow. Try =CalculateTest2(x, y)",
+            "id": "CALCULATETEST2",
+            "name": "CALCULATETEST2",
+            "parameters": [
+                {
+                    "description": "int : value1.",
+                    "name": "x",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "int : value2.",
+                    "name": "y",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Calculate Heat Transfer - using FluidFlow. Try =CalculateTest2(x, y)",
+            "id": "CALCULATETEST3",
+            "name": "CALCULATETEST3",
+            "parameters": [
+                {
+                    "description": "int : value1.",
+                    "name": "x",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "int : value2.",
+                    "name": "y",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Calculate Heat Transfer - using FluidFlow. Try =CalculateTest2(x, y)",
+            "id": "CALCULATETEST4",
+            "name": "CALCULATETEST4",
+            "parameters": [
+                {
+                    "description": "int : value1.",
+                    "name": "x",
+                    "optional": true,
+                    "type": "number"
+                },
+                {
+                    "description": "int : value2.",
+                    "name": "y",
+                    "optional": true,
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "type": "number"
+            }
+        },
+        {
+            "description": "Writes a message to console.log().",
+            "id": "LOG",
+            "name": "LOG",
+            "parameters": [
+                {
+                    "description": "String to write.",
+                    "name": "message",
+                    "type": "string"
+                }
+            ],
+            "result": {
+                "type": "string"
+            }
+        },
+        {
+            "description": "Cal Heating coil value",
+            "id": "CALHEATINGCOIL",
+            "name": "CALHEATINGCOIL",
+            "parameters": [
+                {
+                    "description": "number : value1.",
+                    "name": "x",
+                    "type": "number"
+                },
+                {
+                    "description": "number : value2.",
+                    "name": "y",
+                    "type": "number"
+                },
+                {
+                    "description": "number : value3.",
+                    "name": "z",
+                    "type": "number"
+                }
+            ],
+            "result": {
+                "dimensionality": "matrix",
+                "type": "number"
+            }
+        }
+    ]
+}
